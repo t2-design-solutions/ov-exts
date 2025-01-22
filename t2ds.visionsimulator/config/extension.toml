@@ -1,0 +1,17 @@
+[package]
+version = "1.0.0"
+title = "Vision Simulator"
+description = "A custom extension to view various visiual impairment simulations such as Deuteranopia, Protanopia & Tritanopia for real-time colour vision deficiency simulations"
+
+repository = ""
+category = "T2 Tools"
+keywords = ["kit", "reshade", "T2"]
+readme = "docs/README.md"
+
+[dependencies]
+"omni.kit.uiapp" = {}
+"omni.ui" = {}
+"omni.kit.window.file_importer" = {}
+
+[[python.module]]
+name = "t2ds.visionsimulator"
